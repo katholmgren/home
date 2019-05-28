@@ -1,6 +1,6 @@
 
 body {
-  background-color: #D3C4BE;
+  background-color: #F4EEE1;
 }
 
 .container {
@@ -21,7 +21,7 @@ header {
 .kt a{
     font-size: 32px;
     text-decoration: none;
-    color: hotpink;
+    color: #FDA4BA;
 }
 
 /* Space between menu items */
