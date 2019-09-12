@@ -1,6 +1,6 @@
 
 body {
-  background-color: #cccccc;
+  background-color: white;
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
 /* NAVIGATION */
 header {
     list-style-type: none;
-    border-bottom: 1px solid pink;
+    border-bottom: 1px solid white;
     font-family: Georgia, serif;
 }
 
@@ -28,7 +28,7 @@ header {
 /* Space between menu items */
 .menu-item {
     display: inline-block;
-    min-width: 8em;
+    min-width: 4em;
     text-align: center;
 }
 
@@ -41,7 +41,7 @@ header {
 }
 .link:hover {
     font-style: italic;
-    color: pink;
+    color: #669999;
 }
 
 /* Dropdown */
@@ -52,16 +52,13 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 200px;
-    margin: 0;
     background-color: lightgray;
-    z-index: 1;
 }
 
 .dropdown-content a {
     color: gray;
-    text-align: left;
-    display: block;
+    text-align: center;
+    display: inline-block;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -72,11 +69,11 @@ li.dropdown {
     text-align: left;
     margin: 0;
     padding: 12px 16px;
-    min-width: 7em;
+    min-width: 4em;
 }
 .dropdown-item:hover, .dropdown-item:hover a {
     color: white;
-    background-color: pink;
+    background-color: #669999;
 }
 /* end NAVIGATION */
 
