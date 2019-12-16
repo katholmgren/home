@@ -47,3 +47,9 @@
         line-height: 1.7em;
         display: block;
     }
+
+    .jotform {
+      float: left;
+      position: absolute;
+      left: 0px;
+    }
